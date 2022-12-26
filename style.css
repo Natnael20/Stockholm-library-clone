@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Lang {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    right: 100px;
+    max-width: 100%;
+    margin-bottom: 30%;
+}
+
+p a {
+      display: flex;
+      padding: 25px;
+      font-size: 15px;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+    top: 100px;
+}
+
+#firstinput {
+    height: 30px;
+    width: 180px;
+    margin-left: 200px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#secondinput {
+    height: 30px;
+    width: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: 3px solid black;
+    max-width: 100%;
+    position: relative;
+    top: 100px;
+    padding: 10px;
+
+}
+
+ul li {
+    display: inline;
+    justify-content: space-between;
+    padding: 50px;
+    text-transform: uppercase;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sideoptions {
+    border: 1px dotted black;
+    width: 100;
+    max-height: 40%;
+    position: absolute;
+    right: 100px;
+    top: 295px;
+    display: inline-block;
+
+}
+
+.sideoptions h1 {
+    margin-top: 5px;
+    background-color: rgb(231, 231, 231);
+    margin-left: 20px;
+    max-width: 85%;
+}
+
+.sideoptions ul li {
+    display: block;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.contents1, .contents2, .contents3, .contents4, .contents5, .contents6, .contents7, .contents8, .contents9 {
+    margin-top: 150px;
+    display: flex;
+    justify-content:flex-start;
+    max-width: 65%;
+
+}
+
+.contents1 .content11, .content12, .content13 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+
+}
+
+.contents2, .contents3, .contents4, .contents5, .contents6, .contents7, .contents8, .contents9 {
+    margin-top: 50px;
+}
+
+.contents2 .content21, .content22, .content23 {
+    width: 250px;
+    display: block;
+    justify-content: flex-start;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents3 .content31, .content32, .content33 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents4 .content41, .content42, .content43 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents5 .content51, .content52, .content53 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents6 .content61, .content62, .content63 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents7 .content71, .content72, .content73 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents8 .content81, .content82, .content83 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+.contents9 .content91, .content92, .content93 {
+    display: block;
+    justify-content: flex-start;
+    width: 250px;
+    margin-left: 40px;
+    line-height: 20px;
+}
+
+footer {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+
+footer ul li {
+    color: white;
+    display: block;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+
+
